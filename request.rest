@@ -1,0 +1,29 @@
+GET http://localhost:3000
+
+###
+POST http://localhost:3000/item
+Content-Type: application/json
+
+{
+    "username": "zackdesu",
+    "nama": "Wongso Wijaya",
+    "umur": "17"
+}
+###
+GET http://localhost:3000/item
+
+###
+PUT http://localhost:3000/item
+Content-Type: application/json
+
+{
+    "newUsername": "zackdesu",
+    "username": "w.wjy_"
+}
+###
+DELETE http://localhost:3000/item
+Content-Type: application/json
+
+{
+    "username": "w.wjy_"
+}

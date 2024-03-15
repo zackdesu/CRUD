@@ -1,0 +1,4 @@
+{
+  "exec": "ts-node-dev -T src/index.ts",
+  "watch": "src"
+}
