@@ -10,7 +10,7 @@ Content-Type: application/json
     "umur": "17"
 }
 ###
-GET http://localhost:3000/item
+GET http://localhost:3000/item/alok
 
 ###
 PUT http://localhost:3000/item
@@ -25,5 +25,5 @@ DELETE http://localhost:3000/item
 Content-Type: application/json
 
 {
-    "username": "w.wjy_"
+    "username": "zackdesuu"
 }
