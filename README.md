@@ -4,11 +4,17 @@ CRUD adalah serangkaian fungsionalitas mendasar yang biasanya digunakan dalam ma
 
 ### Step #1
 
-`npm install` -- Terminal
+`cd server`
+
+`npm install` -- Server
+
+`cd client`
+
+`npm install` -- Client
 
 ### Step #2
 
-`npm run dev`
+`npm run dev` (client & server)
 
 atau jika punya nodemon
 
